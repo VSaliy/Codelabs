@@ -1,1 +1,28 @@
+=== Install Android Studio
+* https://developer.android.com/studio/index.html[download & install Android Studio]
+```
+java -version
+```
+Set the JAVA_HOME
 
+=== Create your first project
+
+Create a new project
+
+* Open Android Studio.
+
+* In the main Welcome to Android Studio dialog, click Start a new Android Studio project.
+
+* In the New Project dialog, give your application a name such as My First App.
+
+* Accept the default example domain.
+
+* Accept the default project location. Click Next.
+
+* n the Target Android Devices dialog, accept the defaults. Click Next.
+
+* Select Empty Activity. Click Next.
+
+* In the Customize the Activity dialog, accept the defaults.
+
+* Click Finish.
