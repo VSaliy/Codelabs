@@ -67,3 +67,9 @@ Simple Module Example
 module com.foo.bar { }
 ```
 
+=== 10.Optional Class Improvements
+
+```
+Stream<Optional> emp = getEmployee(id)
+Stream empStream = emp.flatMap(Optional::stream)
+```
