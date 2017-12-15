@@ -1,1 +1,69 @@
+=== 1.Java 9 REPL (JShell)
+
+Oracle Corp has introduced a new tool called “jshell”. It stands for Java Shell and also known as REPL (Read Evaluate Print Loop). It is used to execute and test any Java Constructs like class, interface, enum, object, statements etc. very easily.
+
+We can download JDK 9 EA (Early Access) software from https://jdk9.java.net/download/
+
+```
+G:\>jshell
+|  Welcome to JShell -- Version 9-ea
+|  For an introduction type: /help intro
+
+
+jshell> int a = 10
+a ==> 10
+
+jshell> System.out.println("a value = " + a )
+a value = 10
+```
+
+=== 2.Factory Methods for Immutable List, Set, Map and Map.Entry
+
+Empty List Example
+```
+List immutableList = List.of();
+```
+Non-Empty List Example
+```
+List immutableList = List.of("one","two","three");
+```
+Empty Map Example
+```
+jshell> Map emptyImmutableMap = Map.of()
+emptyImmutableMap ==> {}
+```
+Non-Empty Map Example
+```
+jshell> Map nonemptyImmutableMap = Map.of(1, "one", 2, "two", 3, "three")
+nonemptyImmutableMap ==> {2=two, 3=three, 1=one}
+```
+
+=== 3.Private methods in Interfaces
+
+```
+public interface Card{
+
+  private Long createCardID(){
+    // Method implementation goes here.
+  }
+
+  private static void displayCardDetails(){
+    // Method implementation goes here.
+  }
+
+}
+```
+
+=== 4.Java 9 Module System
+
+* Modular JDK
+* Modular Java Source Code
+* Modular Run-time Images
+* Encapsulate Java Internal APIs
+* Java Platform Module System
+
+Simple Module Example
+```
+module com.foo.bar { }
+```
 
