@@ -10,19 +10,20 @@ Set the JAVA_HOME
 Create a new project
 
 * Open Android Studio.
-
 * In the main Welcome to Android Studio dialog, click Start a new Android Studio project.
-
 * In the New Project dialog, give your application a name such as My First App.
-
 * Accept the default example domain.
-
 * Accept the default project location. Click Next.
-
 * n the Target Android Devices dialog, accept the defaults. Click Next.
-
 * Select Empty Activity. Click Next.
-
 * In the Customize the Activity dialog, accept the defaults.
-
 * Click Finish.
+
+=== Create a virtual device (emulator)
+
+* In Android Studio, select Tools > Android > AVD Manager, or click the AVD Manager icon in the toolbar
+* Click +Create Virtual Device
+* Choose a device definition, such as Nexus 5, and click Next
+* In the System Image dialog, from the Recommended tab, choose the latest release
+* If a Download link is visible next to a latest release, it is not installed yet, and you need to download it. If necessary, click the link to start the download, and click Next when it's done
+* In the next dialog box, accept the defaults, and click Finish
