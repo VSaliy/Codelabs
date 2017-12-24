@@ -7,3 +7,8 @@
  * Kubernetes 1.2.2
  * Etcd 2.3.1
  * Amazon Web Services
+ * CentOS
+ ** 7.1/ubuntu
+ ** 14.04/Amazeon
+ ** Linux 2015.09
+ * Debian and Enterprise Linux-based distributions
