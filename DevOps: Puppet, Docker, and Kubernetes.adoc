@@ -13,4 +13,13 @@
  ** Linux 2015.09
  * Debian and Enterprise Linux-based distributions
  
- https://github.com/PacktPublishing/DevOps-Puppet-Docker-and-Kubernetes
+### Code samples from book examples
+https://github.com/PacktPublishing/DevOps-Puppet-Docker-and-Kubernetes
+ 
+### Create instance on:
+https://lightsail.aws.amazon.com/ls/webapp/home/instances
+```
+sudo apt-get -y update
+sudo apt-get -y install facter
+facter uptime
+```
