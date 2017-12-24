@@ -12,3 +12,5 @@
  ** 14.04/Amazeon
  ** Linux 2015.09
  * Debian and Enterprise Linux-based distributions
+ 
+ https://github.com/PacktPublishing/DevOps-Puppet-Docker-and-Kubernetes
