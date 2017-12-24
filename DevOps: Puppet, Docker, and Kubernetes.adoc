@@ -1,1 +1,9 @@
-
+### The primary softwares required are as follows:
+ * Puppet 3.7.3
+ * Kubernetes 1.1.3Java
+ * Etcd 2.1.1
+ * Flanneld 0.5.2
+ * Docker 1.7.1
+ * Kubernetes 1.2.2
+ * Etcd 2.3.1
+ * Amazon Web Services
