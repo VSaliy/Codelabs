@@ -22,4 +22,9 @@ https://lightsail.aws.amazon.com/ls/webapp/home/instances
 sudo apt-get -y update
 sudo apt-get -y install facter
 facter uptime
+sudo apt-get -y install rubygems
+sud gem install puppet
+cd ~
+mkdir -p .puppet/manifests
+
 ```
